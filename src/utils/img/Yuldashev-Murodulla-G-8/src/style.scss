@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;800;900&display=swap);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gothic A1', sans-serif;
+  padding: 50px 200px;
+  
+  .prodact-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    row-gap: 100px;
+    
+    img{
+      border-radius: 10px;
+      transition: 0.3s;
+      &:hover{
+        transform: translateY(-5px);
+        box-shadow: 0px 10px 10px 0px #000;
+      }
+    }
+  }
+}
+

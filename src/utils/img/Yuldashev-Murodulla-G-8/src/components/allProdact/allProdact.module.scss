@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    button{
+        padding: 10px 15px;
+        font-size: 16px;
+        border: none;
+        background-color: green;
+        color: #fff;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    
+}
+
+.allProdacts{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
